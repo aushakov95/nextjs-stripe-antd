@@ -6,9 +6,7 @@ import OrderSummary from "../components/OrderSummary";
 import { Col, Row } from "antd";
 
 const CheckoutPage = () => {
-  const stripePromise = loadStripe(
-    "pk_test_f4ItgvCpY35cAFDKy0kxzaZe00LFMkfD3v"
-  );
+  const stripePromise = loadStripe("your_public_stripe_key");
   return (
     <Row>
       <Col offset={6} span={12} className="stripe-form-container">

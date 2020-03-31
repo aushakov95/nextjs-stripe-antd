@@ -1,7 +1,6 @@
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import { Input, Col, Row, Form, Button, Modal } from "antd";
 import { useState } from "react";
-import Router from "next/router";
 
 const CheckoutForm = props => {
   const { getFieldDecorator } = props.form;
